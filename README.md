@@ -52,9 +52,18 @@ The data did not require much cleaning in Google Sheets, as data could be easily
 
 #### 1. What is the total number of black teachers in California from 2018-19? Then, compare to other demographics (ie White, Hispanic etc.)
 
-First, I searched for teacher numbers by race in the CDE databse and found the following dataset: "Certified Staff by Race/Ethnicity Alameda County 2018-19". I filtered out all types of school administration/staff from the "Certified Staff" except for "Teachers". Then I filtered the year to 2018-2019, which was the most recently available timeframe. Then, I downloaded the data county by county and compiled this ["spreadsheet"](https://docs.google.com/spreadsheets/d/1wVNvsiat7hItWwOruKtMefD4igkixYkXFAHGS9HAKqM/edit?usp=sharing)
+First, I searched for teacher numbers by race in the CDE databse and found the following dataset: "Certified Staff by Race/Ethnicity Alameda County 2018-19". I filtered out all types of school administration/staff from the "Certified Staff" except for "Teachers". Then I filtered the year to 2018-2019, which was the most recently available timeframe. The races/ethnicities are the following: Hispanic, White (not Hispanic), African American (not Hispanic), American Indian/Alaskan Native (not Hispanic), Asian (not Hispanic), Pacific Islander (not Hispanic), Filipino (not Hispanic), Two Races or More (not Hispanic) and No Response. 
 
-At this stage, I onyl had one sheet with the total number of teachers in California by county from 2018-2019. 
+Then, I downloaded the data county by county and compiled this ["spreadsheet"](https://docs.google.com/spreadsheets/d/1wVNvsiat7hItWwOruKtMefD4igkixYkXFAHGS9HAKqM/edit?usp=sharing)
+
+At this stage, I only had one sheet with the total number of teachers in California by county from 2018-2019. In order to figure out the total of each racial category, I created pivot tables to sort each county by a specific race to calculate the total number of teachers of X race in California. Here is an example of the Total African American (not Hispanic) pivot table I made:
+
+<img width="361" alt="Screenshot 2023-08-10 at 4 48 37 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/75d83215-16b6-4a0a-a019-d7bdcec48fd6">
+
+Once I finished the pivot tables, I added all the totals to the original "Total Teachers by County by Race 2018-2019). In total: 308,340 teachers in California from 2018-19, of which 12,156 are Black (African American):
+
+<img width="1201" alt="Screenshot 2023-08-10 at 4 52 51 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/6dc052bb-b494-43fc-ae53-9fcaa5240891">
+
 
 
 
