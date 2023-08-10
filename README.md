@@ -5,8 +5,8 @@
 My story aims to highligth the effects of having a small Black teacher population on Black students in the state of California. Particularly, this projet found that in schools with a small Black teacher population, Black students encounter a higher risk of getting punished, suspended and/or expelled from school, as opposed to schools with a larger Black teacher population. I focused on two Californian school districts in Alameda County and Sacramento County: Oakland Unified School District (OUSD) and Folsom-Cordova Unified (F-CUSD). The data analysis found that there is a strong correlation between the improvement of the overall academic performance of Black students all levels of education, and a strong presence of Black teaching personnel at their school. It is hard to define what a "strong" presence means, but I believe the minimum ratio of Black students per Black teacher should be 10:1. This would prevent more Black students from falling into the school-to-prison pipeline, which disproportionately targets students of color, and particular Black male students. Additionally, this story aims to contest the assumption that a school with a low Black student populaton does not require an equal or greater Black teacher population. I am to demonstrate that these students, who are already minorities within their peer group, need even more representation in the people in charge of their education. Thus, this story aims to propose that more Black teachers be a) formed in the areas where they are scarce so they may assist Black students and imporve their future prospects and b)transferred to these areas in order to fill the vacancy. Having teachers that are the same race as students significantly improves morale, retention, graduation/achievement rates and attendance. 
 
 I chose Alameda County and the Oakland Unified School District for a few reasons. Firstly, Black teachers make up the fourth largest demographic in the county's total teacher population (1,047 out of 12,320 teachers betweeen 2018-2019). Despite representing only 8.50% of the total teacher population in the state, it is vital to note that Alameda County is the county with the most Black teachers in California, as per my analysis.  Secondly, the OUSD is the district with the msot significant Black teacher population from 2018-2019. Black students in the OUSD represent 23.50% of the total student population between 2018-2019, the second largest demographic after Hispanic or Latino children. 
-I chose Sacramento County because it had more or less the same teacher and teacher population as Alameda County (both over 12,000 teachers and over 200,000 students from 2018-2019). I chose the Folsom-Cordova Unfiied School District for the simple reason that it had the lowest amount of Black teachers in the entire county (_____ teachers out of ____________). The Black student population is also quite small (_____students out of ___________). 
-_____________________
+I chose Sacramento County because it had more or less the same teacher and teacher population as Alameda County (both over 12,000 teachers and over 200,000 students from 2018-2019). I chose the Folsom-Cordova Unfiied School District for the simple reason that it had the lowest amount of Black teachers in the entire county (14 teachers out oF 1030). The Black student population is also quite small (1,068 Black students out of 20,605). 
+
 ### Sourcing 
 
 For this project, I used the following datasets:
@@ -76,7 +76,59 @@ The top 3 demographics are: White (not Hispanic), Hispanic and Asian (not Hispan
 - Alameda County: White (61.13%), Hispanic (11.34%), Asian (10.77%)
 - Sacramento County: White (71.75%), Hispanic (10.35%), Asian (6.80%)
 
-#### 3. 
+#### 3. What is the total number of black teachers in OUSD and F-CUSD? Compare to top 3 demographics. 
+
+For Oakland Unified, I returned to the CA Department of Education Teacher database that I used earlier to figure out the total amount of teachers by county from 2018-19. Then I click on the "Report" dropdown list and choose "Staff Count by County by Ethnicity (with district data0". Here, I can see every school district in Oakland Unified. I download the file and import the data onto a new sheet in the google Sheets doc where I put all of the data pertaining to teachers. 
+
+I used this formula to calculate the sums of each racial category (and changed the values as I went down the list of races/ethnicities): **=SUM(C2:C123)
+
+<img width="1293" alt="Screenshot 2023-08-10 at 5 53 00 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/869050e2-f7bf-489c-99a8-f380e54b0664">
+
+I did the same thing for Folsom-Cordova Unified using this formula (changing the values as I went down the list of races/ethnicities): **SUM=(C2:C34)**
+
+<img width="1247" alt="Screenshot 2023-08-10 at 6 00 06 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/48a943a5-0db8-43ff-b3db-eb39017dd9d4">
+
+**There are 649 Black teachers in OUSD and 14 in F-CUSD.**
+
+The top 3 demographics are: White (not Hispanic), Hispanic and Asian (not Hispanic). Comparatively:
+- Oakland Unified: White (1496 teachers), Hispanic (451 teachers), Asia (301 teachers) 
+- Folsom-Cordova Unified: White (898 teachers), Hispanic (63 teachers), Asia (31 teachers) 
+
+Thus:
+- OUSD: there are roughly 2.3x more White teachers than Black teachers. OUSD is the distrcit in our project where African American teachers were the second largest population after White teachers.
+- F-CUSD: there are roughly 64x more White teachers than Black teachers, 4.5x more Hispanic teachers than Black teachers and 2.2x more Asian teachers than Black teachers. 
+
+#### 4. What is the total number students OUSD and F-CUSD? What percentage do they represent?
+
+I got my data from this CDE [database](https://dq.cde.ca.gov/dataquest/) and specifically used these datasets: [1) OUSD](https://dq.cde.ca.gov/dataquest/dqcensus/EnrEthGrd.aspx?cds=0161259&agglevel=District&year=2018-19&ro=y) and [2) F-CUSD](https://dq.cde.ca.gov/dataquest/dqcensus/EnrEthGrd.aspx?cds=3467330&agglevel=District&year=2018-19&ro=y) 
+
+I wrote the data manually into a new doc called "OUSD and FCUSD Student Data", where for each district, I sorted the data by race/ethnicity. Then I used this formula to add the values to give a total number of students in OUSD and F-CUSD: **=SUM(A2:I2)**
+
+Here are the results for:
+
+OUSD: 
+
+<img width="898" alt="Screenshot 2023-08-10 at 6 29 34 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/a4d18db2-ccfa-4e41-ac1b-806d6fac320d">
+
+Percentages of each demographic are shown below. I used this formula **=(A2*100)/B4** and chnaged the values as need to calculate the percentages of each demographic. 
+
+<img width="910" alt="Screenshot 2023-08-10 at 6 39 09 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/632e1f18-2787-4544-bb82-4be1504ae3a7">
+
+
+And F-CUSD: 
+
+<img width="913" alt="Screenshot 2023-08-10 at 6 30 02 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/195e8b3c-f4a1-41e5-8315-af3045968ced">
+
+Percentages of each demographic are shown below. I used this formula **=(A2*100)/B4** and chnaged the values as need to calculate the percentages of each demographic. 
+
+
+<img width="917" alt="Screenshot 2023-08-10 at 6 37 19 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/87dacbc3-0638-4587-94c3-d19549aa14dc">
+
+In sum, there are 11,813 Black students in OUSD, which represent 23.53% of the total student population. There are 1,068 Black students in F-CUSD,, which represent 5.18% of the total student population.  
+
+#### 5. What are the suspension rates of Black students in OUSD and F-CUSD? How do they differ from other demographics? 
+
+Still in the doc called "OUSD and FCUSD Student Data", I insert the suspension data from OUSD into a new sheet. This data is taken from [this dataset]( from the California Department of Education: 
 
 
 
@@ -85,30 +137,4 @@ The top 3 demographics are: White (not Hispanic), Hispanic and Asian (not Hispan
 
 
 
-
-
-
-
-
-research questions:
-
-THE FACTS 
-
-1. what is the total number of black teachers in CA 2018-19? compare to other demographics (white, hisp)
-2. WHAT percentage does the black teacher population represent in the total teacher population of Alameda County 2018-19? Sacramento County 2018-19?? compare to other demographics (white, hisp)
-3. what is the total number of black teachers in OUSD and F-CUSD? compare to other demographics (white, hisp)
-4. what is the total number of black students in Alameda County? What % do they represent? compare to other demographics (white, hisp)
-5. ___________________________________________in Sacramento County? what % do they represent? compare to other demographics (white, hisp)
-6. ___________________________________________in OUSD? what % do they represent? compare to other demographics (white, hisp)
-7. ___________________________________________in F-CUSD? what % do they represent? compare to other demographics (white, hisp)
-
-8. what is the black teacher to student ration in OUSD and F-CUSD? compare to other demographics (white, hisp)
-
-THE EFFECTS
-1. what is the suspension/expulsion rate of black students in OUSD? compare to other demographics (white, hisp)
-2. what is the suspension/expulsion rate of black students in F-CUSD? compare to other demographics (white, hisp)
-3. what are the achievement gaps of black students in OUSD and F-CUSD compared to other demographics?
-4. encounters with police instead of councelor of black students in OUSD and F-CUSD compared to other demographics?
-
-
-
+#### 6. What are the expulsion rates of Black students in OUSD and F-CUSD? How do they differ from other demographics? 
