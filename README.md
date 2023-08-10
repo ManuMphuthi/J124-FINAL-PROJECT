@@ -130,11 +130,21 @@ In sum, there are 11,813 Black students in OUSD, which represent 23.53% of the t
 
 Still in the doc called "OUSD and FCUSD Student Data", I insert the suspension data from OUSD into a new sheet. This data is taken from [this dataset]( from the California Department of Education: 
 
+Results for OUSD: (WHITE, AFRICAN AMERICAN AND HISPANIC)
+<img width="528" alt="Screenshot 2023-08-10 at 7 45 52 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/823106e4-1644-43e6-9784-531be8ad8db4">
 
 
+Results for F-CUSD: (WHITE, AFRICAN AMERICAN AND HISPANIC)
+<img width="550" alt="Screenshot 2023-08-10 at 7 51 05 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/f0692ff3-1f09-40cc-b350-83ec2ca79f8c">
 
 
+In both cases, we see Black students have the highest suspension rates compared to their White and Hispanic peers. However, the suspension rate in F-CUSD is more significant given the smaller Black student population size. If we control for these discrepancies, we conclude that the school with the most non-Black teachers and the smallest Black student population has higher suspension rates than the school with a significant Black teacher and student population 
 
 
+### Data Visualization 
 
-#### 6. What are the expulsion rates of Black students in OUSD and F-CUSD? How do they differ from other demographics? 
+
+#### 1. Number of African American (not Hispanic) Teachers by County (2018-19)
+
+[<img width="717" alt="Screenshot 2023-08-10 at 7 31 42 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/50c3e679-0920-4f72-8fbd-1a6c121325b0">](https://www.datawrapper.de/_/UmpWV/)
+
