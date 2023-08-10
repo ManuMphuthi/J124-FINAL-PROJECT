@@ -34,35 +34,29 @@ All data was sourced from the California Department of Education (CDE).
 2. Nancy William McGee, Director of the Student Achievement and Support Division
    - E-mail: N/A
    - Contact Number: 916-319-0926
-   - Reason: As the Director of this division, McGee works with local educational agencies, administrators, teachers, students, families and educational stakeholders to "ensure state and federal policies and legislation are aligned, supported, and implemented in a manner that provides each of California’s students with meaningful access to a fair, equitable, high-quality, and well-rounded education", according to the CDE. McGee would be a useful source as he specializes on student achievement, meaning he has expertise on the regulation and programs that have been implemented to address racial discrepancies on test scores. I could not find this information on the CDE's official website, so hearing from him would be helpful. He also works directly with families according to his division's bio, meaning he might have a unique take on the issues discussed in thsi project. 
+   - Reason: As the Director of this division, McGee works with local educational agencies, administrators, teachers, students, families and educational stakeholders to "ensure state and federal policies and legislation are aligned, supported, and implemented in a manner that provides each of California’s students with meaningful access to a fair, equitable, high-quality, and well-rounded education", according to the CDE. McGee would be a useful source as he specializes on student achievement, meaning he has expertise on the regulation and programs that have been implemented to address racial discrepancies on test scores. I could not find this information on the CDE's official website, so hearing from him would be helpful. He also works directly with families according to his division's bio, meaning he might have a unique take on the issues discussed in this project. 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Additional Resources:
+1. ["The National Center for Education Statistics"](https://nces.ed.gov/pubs2020/2020103/index.asp#:~:text=In%20the%202017–18%20school,were%20Black%20and%20non%2DHispanic.)
+   - The dataset on the linked website provides a unique perspective on the issues discussed in this project. For instance, the first finding is that "teachers of a given race/ethnicity were more often found in schools where their race/ethnicity matched a majority of the student body". This is useful because it sort answers one of the questions I ask in my Data Analysis and touches ont he overarching theme of this project. More importantly, it argues that "in schools where the majority of students are not White, the majority of teachers tended to be White". This is literally the essence of this project.
+  
+2. ["The Black Teacher Initiative"](https://blackteachercollaborative.org/stats/#:~:text=Georgia%20is%20in%20the%20top,in%20the%20country%2C%20behind%20Texas.)
+   - This dataset would be a very vital additional resource, as it is led by Black teachers and was specifically made to highlight to discrepancies of the racial makeup of both student and teacher populations across the United States. The BTI also has interactive data visualization in the form of graphs and maps that the user can filter as needed. If I were to use this resource, I would filter out all US regions besides "West" and specifically look at the "Where are the Black students in the US?" map, the "Where are the Black teachers?" map and more importantly, the "Teacher Student" scatterplot, which answers some of the main questions of this project such as what is the Black-teacher-to-Black-Student-ratio in California. The scatterplot shows that for every Black teacher in California, there are 28.3 students. Finally, this data fills in the gaps in the data fromt he CDE in terms of reading proficiency by race for example, though that data is limited as well. 
 
 
 ### Data Analysis Process 
+
+This section of the project outlines the questions I asked myself while going through the data in the Sourcing section. 
+
+The data did not require much cleaning in Google Sheets, as data could be easily filtered at will on the CDE database. 
+
+#### 1. What is the total number of black teachers in California from 2018-19? Then, compare to other demographics (ie White, Hispanic etc.)
+
+First, I searched for teacher numbers by race in the CDE databse and found the following dataset: "Certified Staff by Race/Ethnicity Alameda County 2018-19". I filtered out all types of school administration/staff from the "Certified Staff" except for "Teachers". Then I filtered the year to 2018-2019, which was the most recently available timeframe. Then, I downloaded the data county by county and compiled this ["spreadsheet"](https://docs.google.com/spreadsheets/d/1wVNvsiat7hItWwOruKtMefD4igkixYkXFAHGS9HAKqM/edit?usp=sharing)
+
+At this stage, I onyl had one sheet with the total number of teachers in California by county from 2018-2019. 
+
+
 
 research questions:
 
