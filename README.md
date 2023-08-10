@@ -60,9 +60,28 @@ At this stage, I only had one sheet with the total number of teachers in Califor
 
 <img width="361" alt="Screenshot 2023-08-10 at 4 48 37 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/75d83215-16b6-4a0a-a019-d7bdcec48fd6">
 
-Once I finished the pivot tables, I added all the totals to the original "Total Teachers by County by Race 2018-2019). In total: 308,340 teachers in California from 2018-19, of which 12,156 are Black (African American):
+Once I finished the pivot tables, I added all the totals to the original "Total Teachers by County by Race 2018-2019). **In total: 308,340 teachers in California from 2018-19, of which 12,156 are Black (African American).** By comparison, the top 3 largest demographics were White teachers at 180,697, Hispanic teachers at roughly 63,031 and Asian teachers at 17,651. Thus, there are roughly 14x more White teachers than Black teachers, 5x more Hispanic teachers than Black teachers and 1.5x more Asian teachers than Black teachers in California from 2018-2019.
 
 <img width="1201" alt="Screenshot 2023-08-10 at 4 52 51 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/6dc052bb-b494-43fc-ae53-9fcaa5240891">
+
+#### 2. What percentage does the Black teacher population represent in the total teacher population of Alameda County from 2018-19? What about Sacramento? Compare to top 3 demographics.
+
+I created a new sheet (still in the same doc) titled "Demographic Percentages". Then, I used the "Total teachers by County" sheet to calculate the percentage of each demographic in Alameda county using the following formula (and changed the values as I went down the list of races/ethnicities): **=(B2*100)/K2**. For Sacramento County, I used the same formula except it turned out like this: **=(B35*100)/K35)** (and changed the values as I went down the list of races/ethnicities)
+
+<img width="1204" alt="Screenshot 2023-08-10 at 5 08 26 AM" src="https://github.com/ManuMphuthi/J124-FINAL-PROJECT/assets/140004593/fdc928c5-284e-4db7-b12d-09b4095e453e">
+
+Here, we see that 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
